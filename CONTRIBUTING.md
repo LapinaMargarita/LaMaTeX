@@ -87,6 +87,10 @@ cannot always integrate them into the kernel.
 
 If you are submitting a pull request, notice that
 
+- We do not accept pull requests for the *master* but only for the *develop*
+  branch (or one of its feature branches if the pull is specific to that code).
+  The *master* branch is only used to reflect the CTAN releases and the other
+  branches are merged into it when ready for distribution
 - The first line of commit messages should be a short summary (up to about
   50 chars); leave a blank line then give more detail if required
 - We use Travis-CI for (light) testing so add `[ci skip]` to documentation-only
